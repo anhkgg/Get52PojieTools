@@ -29,7 +29,7 @@ def get_file_list():
     url = 'https://down.52pojie.cn/list.js'
     headers = {
         'Host': 'down.52pojie.cn',
-        'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36'
+        'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64; rv:45.0) Gecko/20100101 Firefox/45.0'
     }
     res = requests.get(url, headers = headers)
     data = res.content
