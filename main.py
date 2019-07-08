@@ -9,6 +9,8 @@ try:
 except:
     import json
 
+reload(sys)
+sys.setdefaultencoding('utf8')    
 
 def save_file(path, data):
     f = file(path, 'w')
